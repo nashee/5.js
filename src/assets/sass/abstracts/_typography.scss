@@ -1,0 +1,13 @@
+.main-header  {
+    h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    line-height: 1.2
+    }
+    span {
+        color: #b50d10;
+    }
+}
+.card h3 {
+    @include margin-bottom;
+}

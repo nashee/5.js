@@ -1,0 +1,23 @@
+ html {
+     box-sizing: border-box;
+     font-size: 62%;
+ }
+ * , *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+ }
+ body {
+     font-size: 1.4rem;
+     background-color: white;
+ }
+ a {
+     text-decoration: none;
+     color: #333;
+ }
+ ul {
+     list-style: none;
+ }
+ img {
+     width: 100%;
+ }
