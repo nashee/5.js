@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arcylic Painting Gallary</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/vendors/fontawesome/font.css">
 </head>
@@ -26,8 +27,8 @@
             </div>
         </section>
 
-        <section class="card">
-            <img src="assets/img/pic_3.jpeg"  data-aos="fede-left" alt="">
+        <section class="card"  data-aos="fade-left">
+            <img src="assets/img/pic_3.jpeg"   alt="">
             <div>
                 <h3>Acrylic Painting Two</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, adipisci harum. Vero totam ipsa enim distinctio necessitatibus delectus rem labore, suscipit maxime ab perferendis unde eos! Omnis magni tempore illo.</p>
@@ -75,7 +76,11 @@
     </main>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+          offset: 400,
+          duration: 1000
+
+      });
     </script>
 </body>
 </html>
